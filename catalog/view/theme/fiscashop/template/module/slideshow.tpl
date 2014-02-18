@@ -1,8 +1,8 @@
-<div class="slideshow">
+<div class="slideshow col-md-12">
   <div id="slideshow<?php echo $module; ?>" class="nivoSlider" style="width: <?php echo $width; ?>px; height: <?php echo $height; ?>px;">
     <?php foreach ($banners as $banner) { ?>
     <?php if ($banner['link']) { ?>
-    <a href="<?php echo $banner['link']; ?>"><img src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" /></a>
+    <a  style="margin: auto;" href="<?php echo $banner['link']; ?>"><img src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" /></a>
     <?php } else { ?>
     <img src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" />
     <?php } ?>

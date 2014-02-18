@@ -3,3 +3,196 @@
 2014-01-24 7:01:49 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\AppServ\www\store\index.php:104) in C:\AppServ\www\store\system\engine\controller.php on line 29
 2014-01-24 7:02:48 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\AppServ\www\store\system\library\mail.php on line 150
 2014-01-24 7:44:35 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\AppServ\www\store\system\library\mail.php on line 150
+2014-02-18 4:50:56 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:50:56 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:50:56 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:50:56 - PHP Notice:  Undefined variable: content_top in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 2
+2014-02-18 4:50:56 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 4
+2014-02-18 4:50:56 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 5
+2014-02-18 4:50:59 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:50:59 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:50:59 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:50:59 - PHP Notice:  Undefined variable: content_top in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 2
+2014-02-18 4:50:59 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 4
+2014-02-18 4:50:59 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 5
+2014-02-18 4:51:24 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:51:24 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:51:24 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:51:24 - PHP Notice:  Undefined variable: content_top in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 2
+2014-02-18 4:51:24 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 4
+2014-02-18 4:51:24 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 5
+2014-02-18 4:51:27 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:51:27 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:51:27 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 4:51:27 - PHP Notice:  Undefined variable: content_top in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 2
+2014-02-18 4:51:27 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 4
+2014-02-18 4:51:27 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 5
+2014-02-18 5:08:50 - PHP Notice:  Error: Could not load controller testing/column_left! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:08:52 - PHP Notice:  Error: Could not load controller testing/column_left! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:09:02 - PHP Notice:  Error: Could not load controller testing/column_left! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:09:04 - PHP Notice:  Error: Could not load controller testing/column_left! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:09:53 - PHP Notice:  Error: Could not load controller testing/column_left! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:09:55 - PHP Notice:  Error: Could not load controller testing/column_left! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:11:17 - PHP Notice:  Error: Could not load controller testing/contentent_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:11:19 - PHP Notice:  Error: Could not load controller testing/contentent_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:11:34 - PHP Notice:  Error: Could not load controller testing/contentent_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:11:36 - PHP Notice:  Error: Could not load controller testing/contentent_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:11:38 - PHP Notice:  Error: Could not load controller testing/contentent_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:13:18 - PHP Notice:  Error: Could not load controller testing/contentent_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:13:21 - PHP Notice:  Error: Could not load controller testing/contentent_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:13:26 - PHP Notice:  Error: Could not load controller testing/contentent_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:13:59 - PHP Notice:  Error: Could not load controller testing/conten_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:14:01 - PHP Notice:  Error: Could not load controller testing/conten_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:14:33 - PHP Notice:  Error: Could not load controller conten_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:14:35 - PHP Notice:  Error: Could not load controller conten_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:14:47 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:14:47 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:14:47 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:14:47 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:14:47 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:14:49 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:14:49 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:14:49 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:14:49 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:14:49 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:18:11 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:18:11 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:18:11 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:18:11 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:18:11 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:18:11 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:18:11 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:18:14 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:18:14 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:18:14 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:18:14 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:18:14 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:18:14 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:18:14 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:19:47 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:19:47 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:19:47 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:47 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:47 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:47 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:19:47 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:19:49 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:19:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:19:49 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:49 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:49 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:49 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:19:49 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:19:50 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:19:50 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:19:50 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:50 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:50 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:19:50 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:19:50 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:21:45 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:21:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:21:45 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:45 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:45 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:45 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:21:45 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:21:47 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:21:47 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:21:47 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:47 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:47 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:47 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:21:47 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:21:48 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:21:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:21:48 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:48 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:48 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:21:48 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:21:48 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:24:03 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:24:03 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:24:03 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:24:03 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:24:03 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:24:03 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:24:03 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:24:05 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:24:05 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:24:05 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:24:05 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:24:05 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:24:05 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:24:05 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:27:43 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:27:43 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:27:43 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:27:43 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:27:43 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:27:43 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:27:43 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:27:45 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:27:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:27:45 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:27:45 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:27:45 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:27:45 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:27:45 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:28:03 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:03 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:05 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:05 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:05 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:05 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:08 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:08 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:10 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:10 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:23 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:26 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:26 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:46 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:46 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:48 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:48 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:57 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:28:57 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:29:00 - PHP Notice:  Undefined variable: modules in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:29:00 - PHP Warning:  Invalid argument supplied for foreach() in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 1
+2014-02-18 5:31:29 - PHP Notice:  Error: Could not load controller testing/content_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:31:30 - PHP Notice:  Error: Could not load controller testing/content_top! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:32:48 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 5:32:48 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 5:32:48 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 5:32:48 - PHP Notice:  Undefined variable: content_top in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 2
+2014-02-18 5:32:48 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 4
+2014-02-18 5:32:48 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 5
+2014-02-18 5:32:51 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 5:32:51 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 5:32:51 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 1
+2014-02-18 5:32:51 - PHP Notice:  Undefined variable: content_top in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 2
+2014-02-18 5:32:51 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 4
+2014-02-18 5:32:51 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\fiscashop\template\common\home.tpl on line 5
+2014-02-18 5:37:14 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:37:14 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:37:14 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:37:14 - PHP Notice:  Undefined variable: content_top in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 2
+2014-02-18 5:37:14 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:37:14 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:37:16 - PHP Notice:  Undefined variable: header in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:37:16 - PHP Notice:  Undefined variable: column_left in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:37:16 - PHP Notice:  Undefined variable: column_right in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 1
+2014-02-18 5:37:16 - PHP Notice:  Undefined variable: content_top in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 2
+2014-02-18 5:37:16 - PHP Notice:  Undefined variable: content_bottom in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 4
+2014-02-18 5:37:16 - PHP Notice:  Undefined variable: footer in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\home.tpl on line 5
+2014-02-18 5:37:44 - PHP Notice:  Error: Could not load controller testing/column_left! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 5:37:46 - PHP Notice:  Error: Could not load controller testing/column_left! in C:\AppServ\www\store\system\engine\controller.php on line 47
+2014-02-18 8:10:30 - PHP Notice:  Error: Could not load template C:\AppServ\www\store/catalog/view/theme/C:\AppServ\www\store/catalog/view/theme/testingnaja/template/common/home.tpl! in C:\AppServ\www\store\system\engine\controller.php on line 90
+2014-02-18 8:10:32 - PHP Notice:  Error: Could not load template C:\AppServ\www\store/catalog/view/theme/C:\AppServ\www\store/catalog/view/theme/testingnaja/template/common/home.tpl! in C:\AppServ\www\store\system\engine\controller.php on line 90
+2014-02-18 8:10:43 - PHP Notice:  Error: Could not load template C:\AppServ\www\store/catalog/view/theme/C:\AppServ\www\store/catalog/view/theme/testingnaja/template/common/home.tpl! in C:\AppServ\www\store\system\engine\controller.php on line 90
+2014-02-18 8:10:46 - PHP Notice:  Error: Could not load template C:\AppServ\www\store/catalog/view/theme/C:\AppServ\www\store/catalog/view/theme/testingnaja/template/common/home.tpl! in C:\AppServ\www\store\system\engine\controller.php on line 90
+2014-02-18 8:24:57 - PHP Notice:  Undefined variable: myword in C:\AppServ\www\store\catalog\view\theme\testingnaja\template\common\content_top.tpl on line 5
