@@ -2,9 +2,30 @@
     .container {
         width: 970px;
     }
+    .fetured-product-box {
+        // border: solid 1px #5CCDC9;
+    }
 }
 @media (min-width: 1200px) {
     .container {
         width: 1000px;
     }
+}
+
+a { 
+    cursor: pointer;
+}
+
+div#language img {
+    cursor: pointer;
+}
+
+.button-search {
+    position: absolute;
+    left: -10px;
+    background: url('../image/button-search.png') center center no-repeat;
+    width: 28px;
+    height: 24px;
+    border-right: 1px solid #CCCCCC;
+    cursor: pointer;
 }

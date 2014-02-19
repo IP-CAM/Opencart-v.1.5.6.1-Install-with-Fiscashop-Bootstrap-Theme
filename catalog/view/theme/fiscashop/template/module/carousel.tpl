@@ -1,4 +1,4 @@
-<div id="carousel<?php echo $module; ?>">
+<div id="carousel<?php echo $module; ?>" style="margin-top: 20px;">
   <ul class="jcarousel-skin-opencart">
     <?php foreach ($banners as $banner) { ?>
     <li><a href="<?php echo $banner['link']; ?>"><img src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" title="<?php echo $banner['title']; ?>" /></a></li>

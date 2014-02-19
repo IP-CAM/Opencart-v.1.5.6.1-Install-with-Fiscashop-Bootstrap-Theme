@@ -21,8 +21,13 @@
         <?php } ?>
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" type="text/css" href="catalog/view/theme/fiscashop/bootstrap/css/bootstrap.min.css" />
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" type="text/css" href="catalog/view/theme/fiscashop/bootstrap/css/bootstrap-theme.min.css" />
+
         <!-- Custom styles for this template -->
         <link rel="stylesheet" type="text/css" href="catalog/view/theme/fiscashop/stylesheet/stylesheet.css" />
+
         <!-- Just for debugging purposes. Don't actually copy this line! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -63,68 +68,99 @@
         <?php } ?>
         <?php echo $google_analytics; ?>
     </head>
+
     <body>
+
         <div class="container">
 
             <div class="row">
 
-                <?php if ($logo) { ?>
-                <div class="col-md-3" id="logo">
-                    <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a>
+                <div class="col-md-1">
+                    <?php echo $language; ?>                                       
                 </div>
-                <?php } ?>
-                <div class="col-md-3">
-                    <?php echo $language; ?>
-                    <?php echo $currency; ?>
-                    <?php echo $cart; ?>
+                
+                <div class="col-md-1">
+                    <?php echo $currency; ?> 
                 </div>
-                <div class="col-md-3" id="search">
-                    <div class="button-search"></div>
-                    <input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />
-                </div>
-                <div class="col-md-3" id="welcome">
+
+                <div class="col-md-5" id="welcome">
                     <?php if (!$logged) { ?>
                     <?php echo $text_welcome; ?>
                     <?php } else { ?>
                     <?php echo $text_logged; ?>
                     <?php } ?>
                 </div>
-                <div class="col-md-3" class="links">
+
+                <div class="col-md-2" id="search">
+                    <div class="button-search"></div>
+                    <input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />
+                </div>
+                
+            </div> <!-- /.row -->
+
+            <div class="row">
+
+                <div class="col-md-3" id="logo">
+                    <?php if ($logo) { ?>
+                    <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a>
+                    <?php } ?>
+                </div>
+
+                <div class="col-md-4">
+                    <?php echo $cart; ?>
+                </div>
+
+                <div class="col-md-5" class="links" style="text-align: right;">
                     <a href="<?php echo $home; ?>"><?php echo $text_home; ?></a>
                     <a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a>
                     <a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
                     <a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a>
-                    <a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
+                    <a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>                    
                 </div>
 
             </div> <!-- /.row -->
 
             <?php if ($categories) { ?>
             <div class="row">
+                
                 <div class="col-md-12">
                     <nav class="navbar navbar-default" role="navigation" id="menu">
                         <div class="container-fluid">
-                            <div class="collapse navbar-collapse">
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <?php foreach ($categories as $category) { ?>
+
+                                <?php foreach ($categories as $category) { ?>
+                                    <?php if ($category['children']) { ?>
                                     <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?> <?php if ($category['children']) { ?><b class="caret"></b><? } ?></a>
-                                        <?php if ($category['children']) { ?>
+                                    <?php } else { echo '<li>'; } ?>
+
+                                    <?php if ($category['children']) { ?>
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $category['href']; ?>">
+                                            <?php echo $category['name']; ?><b class="caret"></b>
+                                        </a>
+                                    <?php } else { ?>
+                                        <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+                                    <? } ?>
+
+                                    <?php if ($category['children']) { ?>
 
                                         <?php for ($i = 0; $i < count($category['children']);) { ?>
                                         <ul class="dropdown-menu">
                                             <?php $j = $i + ceil(count($category['children']) / $category['column']); ?>
                                             <?php for (; $i < $j; $i++) { ?>
-                                            <?php if (isset($category['children'][$i])) { ?>
-                                            <li><a href="<?php echo $category['children'][$i]['href']; ?>"><?php echo $category['children'][$i]['name']; ?></a></li>
-                                            <?php } ?>
+                                                <?php if (isset($category['children'][$i])) { ?>
+                                            <li>
+                                                <a href="<?php echo $category['children'][$i]['href']; ?>"><?php echo $category['children'][$i]['name']; ?></a>
+                                            </li>
+                                                <?php } ?>
                                             <?php } ?>
                                         </ul>
                                         <?php } ?>
 
-                                        <?php } ?>
-                                    </li>
                                     <?php } ?>
+                                    </li>
+                                <?php } /* END foreach */ ?>
+                                
                                 </ul>
                             </div>
 
@@ -135,9 +171,11 @@
 
             </div> <!-- /.row -->
             <?php } ?>
+            
             <?php if ($error) { ?>
 
             <div class="warning"><?php echo $error ?><img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>
 
             <?php } ?>
+            
             <div id="notification"></div>
